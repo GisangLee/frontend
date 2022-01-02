@@ -2,11 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import {BrowserRouter} from "react-router-dom";
 import './index.scss';
-import Root from "./layout/index"
+import Root from "./pages/index"
 
 ReactDOM.render(
   <BrowserRouter>
-  <Root/>
+    <Root/>
   </BrowserRouter>
   , document.getElementById("root")
 );
